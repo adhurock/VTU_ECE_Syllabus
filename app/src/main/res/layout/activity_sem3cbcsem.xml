@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem3cbcsemActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-3"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cdb559d1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENGINEERING ELECTROMAGNETICS "
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15EC36"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 04"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Objectives:"
+                    android:id="@+id/text9"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" This course will enable students to:\n• Define and Describe Coluomb’s law and electric field intensity.\n• Define and Explain electric flux density, Gauss’s law and divergence.\n• Describe energy and potential along with concepts of current and conductors.\n• Describe Poisson’s and Laplace’s Equations, and Uniqueness Theorem.\n• Define and Describe basic concepts of Magnetostatics by studying the various laws, Stoke’s Theorem and scalar and vector magnetic flux density.\n• Explain Magnetic Forces, Materials and Inductance.\n• Describe the concepts of time varying fields and Develop Maxwell’s equations in Point and Integral Forms.\n• Describe and Compare different Types of Wave Propagation.   "
+            android:layout_below="@+id/table"
+            android:textSize="15dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+
+            android:id="@+id/text12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text12"
+
+            android:id="@+id/text13" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Level :L1,L2,L3"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text13"
+
+            android:id="@+id/text14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coulomb’s Law, Electric Field Intensity and Flux density "
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experimental law of Coulomb, Electric field intensity, Field due to continuous volume charge distribution, Field of a line charge, Electric flux density."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text15"
+
+            android:id="@+id/text16" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text16"
+
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+
+            android:id="@+id/text18" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text19"
+
+            android:id="@+id/text20" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text20"
+
+            android:id="@+id/text21" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text21"
+
+            android:id="@+id/text22" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text22"
+
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gauss’s law and Divergence"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text23"
+
+            android:id="@+id/text24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gauss’ law, Divergence. Maxwell’s First equation (Electrostactics), Vector Operator ▼ and divergence theorem.  "
+
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text24"
+
+            android:id="@+id/text25" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energy, Potential and Conductors"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+
+            android:id="@+id/text26" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energy expended in moving a point charge in an electric field, The line integral, Definition of potential difference and potential, The potential field of point charge, Current and Current density, Continuity of current. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+
+            android:id="@+id/text27" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+
+            android:id="@+id/text28" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text28"
+
+            android:id="@+id/text29" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text29"
+
+            android:id="@+id/text30" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poisson’s and Laplace’s Equations "
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text30"
+
+            android:id="@+id/text31" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Derivation of Poisson’s and Laplace’s Equations, Uniqueness  theorem,  Examples  of  the  solution  of Laplace’s equation."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text31"
+
+            android:id="@+id/text32" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steady Magnetic Field"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text32"
+
+            android:id="@+id/text33" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biot-Savart Law, Ampere’s circuital law, Curl,  Stokes’ theorem, Magnetic flux and magnetic flux density, Scalar and Vector Magnetic Potentials.  "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text34"
+
+            android:id="@+id/text35" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text35"
+
+            android:id="@+id/text36" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text36"
+
+            android:id="@+id/text37" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnetic Forces"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text37"
+
+            android:id="@+id/text38" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Force on a moving charge, differential current elements, Force between differential current elements."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text38"
+            android:id="@+id/text39" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnetic Materials"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text39"
+            android:id="@+id/text40" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnetisation and permeability, Magnetic boundary conditions, Magnetic circuit, Potential Energy and forces on magnetic materials. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text40"
+            android:id="@+id/text41" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="13dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text41"
+            android:id="@+id/text42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text42"
+            android:id="@+id/text43" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text43"
+            android:id="@+id/text44" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time-varying fields and Maxwell’s equations "
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text44"
+            android:id="@+id/text45" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farday’s law, displacement current, Maxwell’s equations in point form, Maxwell’s equations in integral form."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text45"
+            android:id="@+id/text46" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text46"
+            android:id="@+id/text47" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n
+                                          *****"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text47"
+            android:id="@+id/text48" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Outcomes :"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text48"
+            android:id="@+id/text49" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After studying this course, students will be able to:\n• Acquire knowledge and solve problems related to\n   o Basic Concepts of Electric Fields, Magnetic Fields and Electromagnetic Waves.\n   o Basic Concepts to Solve Complex Problems in Electric Fields, Magnetic Fields and Electromagnetic Waves.\n   o Time-varying fields and Maxwell’s equations.\n   o Wave propagation in free space and dielectrics.\n• Analyze\n   o Different Charge and Current Configurations to derive Electromagnetic Field Equations.\n   o Poisson’s and Laplace’s Equations, Uniqueness theorem, and solution of Laplace’s equation.\n   o Time-varying fields, Maxwell’s equations, wave propagation in free space and dielectrics.\n• Interpretation of\n   o Gradient, Divergence and Curl Operators.\n   o Maxwell’s Equations in differential and integral forms.\n   o Wave propagation in free space and dielectrics.\n• Apply the knowledge gained in the design of Electric and Electronic Circuits, Electrical Machines and Antenna’s and Communication Systems.           "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text49"
+            android:id="@+id/text50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text50"
+            android:id="@+id/text51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text51"
+            android:id="@+id/text52" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text52"
+            android:id="@+id/text53" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W.H. Hayt and J.A. Buck, “Engineering Electromagnetics”, 7th Edition, Tata McGraw-Hill, 2009, ISBN-978-0-07-061223-5.   "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text53"
+            android:id="@+id/text54" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text54"
+            android:id="@+id/text55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. John Krauss and Daniel A Fleisch, “ Electromagnetics with applications”, Mc Graw-Hill.\n2. N. Narayana Rao, “Fundamentals of Electromagnetics for Engineering”, Pearson.\n
+
+
+            "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text55"
+            android:id="@+id/text56" />
+
+
+    </RelativeLayout>
+</ScrollView>

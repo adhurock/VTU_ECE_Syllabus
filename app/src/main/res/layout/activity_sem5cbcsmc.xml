@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem5cbcsmcActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-5"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cd4a4de1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MSP430 MICROCONTROLLER "
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15EC555"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 03"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 40"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/text9"
+                    android:textSize="0dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/table"
+            android:textSize="10dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSP430 Architecture:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction – Where does the MSP430 fit, The outside view, The inside view-Functional block diagram, Memory, Central Processing Unit, Memory Mapped Input and Output, Clock Generator, Exceptions: Interrupts and Resets, MSP430 family.\nText 1: Ch1- 1.3 to 1.7, Ch2- 2.1 to 2.7, Ch5- 5.1, 5.7 upto 5.7.1.  "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addressing Modes and Instruction Set-"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addressing Modes, Instruction set, Constant Generator and Emulated Instructions, Program Examples.\nText 1: Ch5: 5.2 to 5.5"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+
+            android:layout_below="@+id/text16"
+
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+
+            android:id="@+id/text18" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clock System, Interrupts and Operating Modes- "
+            android:layout_marginTop="0.0001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clock System, Interrupts, What happens when an interrupted is requested, Interrupt Service Routines, Low Power Modes of Operation, Watchdog Timer, Basic Timer1, Real Time Clock, Timer-A: Timer Block, Capture/Compare Channels, Interrupts from Timer-A.\nText 1: Ch5 - 5.8 upto 5.8.4, Ch 6-6.6 to 6.8, 6.10, Ch8 -8.1, 8.2, 8.3. "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text20"
+            android:id="@+id/text21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text21"
+            android:id="@+id/text22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analog Input-Output and PWM -"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text22"
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comparator-A, ADC10, ADC12, Sigma-Delta ADC,  Internal Operational Amplifiers, DAC, Edge Aligned PWM, Simple PWM, Design of PWM.  LCD interfacing.\nText 1: Ch9 – 9.1 upto 9.1.2, 9.4, 9.5 upto 9.5.1, 9.7, 9.8 upto 9.8.1, 9.11.5, 9.12 (without 9.12.1), 8.6.2 to 8.6.4. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text23"
+            android:id="@+id/text24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Input-Output and Serial Communication: "
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parallel Ports, Lighting LEDs, Flashing LEDs, Read Input from a Switch, Toggle the LED state by pressing the push button, LCD interfacing.\nAsynchronous Serial Communication, Asynchronous Communication with USCI_A, Communications, Peripherals in MSP430, Serial Peripheral Interface.\nText 1: Ch7: 7.1, Ch4 and Ch7: Selected topics, Ch10 – 10.1, 10.2, and 10.12."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evaluation of Internal Assessment Marks: "
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+
+            android:id="@+id/text28" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is suggested that at least a few simple programs to be executed by students using any evaluation board of MSP430 for better understanding of the course. This activity can be considered for the evaluation of 5 marks out of 20 Internal assessment marks, reserved for the other activities.\n
+
+                                         ******"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text28"
+
+            android:id="@+id/text29" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text29"
+
+            android:id="@+id/text30" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text30"
+
+            android:id="@+id/text31" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text31"
+
+            android:id="@+id/text32" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John H Davies, MSP430 Microcontroller Basics, Newnes Publications, Elsevier, 2008. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text32"
+            android:id="@+id/text33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Chris Nagy, Embedded Systems Design using TI MSP430 Series, Newnes Publications, Elsevier, 2003.\n2. User Guide from Texas Instruments.\n
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+    </RelativeLayout>
+</ScrollView>

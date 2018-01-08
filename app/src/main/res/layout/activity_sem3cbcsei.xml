@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem3cbcseiActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-3"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cdb559d1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ELECTRONIC INSTRUMENTATION"
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15EC35"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 04"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Objectives:"
+                    android:id="@+id/text9"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" This course will enable students to:\n• Define and Describe accuracy and precision, types of errors, statistical and probability analysis.\n• Describe basic functional concepts of various analog and digital measuring instruments.\n• Describe basic concepts of microprocessor based instruments.\n• Describe and discuss functioning and types of oscilloscopes and signal generators, AC and DC bridges.\n• Recognize and describe significance and working of different types of transducers.  "
+            android:layout_below="@+id/table"
+            android:textSize="15dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+
+            android:id="@+id/text12" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text12"
+
+            android:id="@+id/text13" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Level :L1,L2,L3"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text13"
+
+            android:id="@+id/text14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Measurement and Error:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definitions, Accuracy, Precision, Resolution and Significant Figures, Types of Errors, Measurement error combinations, Basics of Statistical Analysis.\n(Text 2)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text15"
+
+            android:id="@+id/text16" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ammeters:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text16"
+
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" DC Ammeter, Multirange Ammeter,  The Ayrton Shunt or Universal  Shunt, Requirements of Shunt, Extending of Ammeter Ranges, RF Ammeter (Thermocouple), Limitations of Thermocouple.\n(Text 1) "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+
+            android:id="@+id/text18" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltmeters and Multimeters:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Basic Meter as a DC Voltmeter, DC Voltmeter, Multirange Voltmeter, Extending  Voltmeter Ranges,  Loading, AC Voltmeter using Rectifiers.   Transistor Voltmeter, Differential Voltmeter, True RMS Voltmeter, Considerations in Choosing an Analog Voltmeter, Multimeter.\n(Text 1) "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text19"
+
+            android:id="@+id/text20" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="11dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text20"
+
+            android:id="@+id/text21" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text21"
+
+            android:id="@+id/text22" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text22"
+
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Voltmeters:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text23"
+
+            android:id="@+id/text24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, RAMP technique, Dual Slope Integrating Type DVM, Integrating Type DVM, Most Commonly used principles of ADC, Successive Approximations,  Continuous  Balance  DVM,  -Digit, Resolution and Sensitivity of Digital Meters, General Specifications of DVM, Microprocessor based Ramp type DVM.\n(Text 1) "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Instruments: "
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Digital Multimeters, Digital Frequency Meter, Digital Measurement of Time, Universal Counter, Digital Tachometer, Digital pH Meter, Digital Phase  Meter, Digital Capacitance Meter, Microprocessor based Instruments.\n(Text 1)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+            android:id="@+id/text28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text28"
+            android:id="@+id/text29" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text29"
+            android:id="@+id/text30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oscilloscopes:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text30"
+
+            android:id="@+id/text31" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Basic principles, CRT features, Block diagram of Oscilloscope, Simple CRO, Vertical Amplifier, Horizontal Deflecting System, Sweep  or Time Base Generator, Storage Oscilloscope, Digital Readout Oscilloscope, Measurement of Frequency by Lissajous Method, Digital Storage Oscilloscope.\n(Text 1)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text31"
+
+            android:id="@+id/text32" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal Generators:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text32"
+
+            android:id="@+id/text33" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Introduction, Fixed and Variable AF Oscillator, Standard Signal Generator, Laboratory Type Signal Generator, AF sine and Square Wave Generator, Function Generator, Square and Pulse Generator, Sweep Generator.\n(Text 1) "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="1dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text35"
+            android:id="@+id/text36" />
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text36"
+           android:id="@+id/text37" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Measuring Instruments:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text37"
+
+            android:id="@+id/text38" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback concepts, Feedback connection types, Practical feedback circuits, Oscillator operation, FET Phase shift oscillator, Wein bridge oscillator, Tuned Oscillator circuit, Crystal oscillator, UJT construction, UJT Oscillator."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text38"
+            android:id="@+id/text39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bridges:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text39"
+            android:id="@+id/text40" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Wheatstone’s bridge, Kelvin’s Bridge; AC bridges, Capacitance Comparison Bridge, Inductance Comparison Bridge, Maxwell’s bridge, Wein’s bridge, Wagner’s earth connection.\n(Text 1)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text40"
+            android:id="@+id/text41" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="1dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text41"
+            android:id="@+id/text42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text42"
+
+            android:id="@+id/text43" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text43"
+            android:id="@+id/text44" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transducers:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text44"
+            android:id="@+id/text45" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Electrical transducers, Selecting a transducer, Resistive transducer, Resistive position transducer, Strain gauges, Resistance thermometer, Thermistor, Inductive transducer, Differential output transducers, LVDT, Piezoelectric transducer, Photoelectric transducer, Photovoltaic transducer, Semiconductor photo diode and transistor, Temperature transducers-RTD.\n(Text 1)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text45"
+            android:id="@+id/text46" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text46"
+            android:id="@+id/text47" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n
+                                          *****"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text47"
+
+            android:id="@+id/text48" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Outcomes :"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text48"
+            android:id="@+id/text49" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After studying this course, students will be able to:\n• Acquire knowledge and solve problems related to\n   o Accuracy and precision o Functioning of various types of analog and digital measuring instruments.\n   o Different types of quantization, resolution and sensitivity in digital instruments such as frequency meters, tachometers, pH meters etc.\n   o Microprocessor based instrumentation\n   o Functioning of various types of Oscilloscopes and signal generators.\n   o Different types of transducers in various applications.\n• Apply the knowledge of passive component measurement\n• Interpretation of performance characteristics of analog and digital measuring instruments.\n• Understand the importance of life-long learning in the field of electronic instrumentation.          "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text49"
+            android:id="@+id/text50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text50"
+            android:id="@+id/text51" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text51"
+            android:id="@+id/text52" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text52"
+            android:id="@+id/text53" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. H. S. Kalsi, “Electronic Instrumentation”, McGraw Hill, 3rd Edition, 2012,  ISBN:9780070702066.\n2. David A. Bell, “Electronic Instrumentation and Measurements”, Oxford University Press PHI 2nd Edition, 2006  ISBN 81-203-2360-2.  "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text53"
+            android:id="@+id/text54" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text54"
+            android:id="@+id/text55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. A. D. Helfrick and W.D. Cooper, “Modern Electronic Instrumentation and  Measuring Techniques”, Pearson, 1st Edition, 2015,ISBN:9789332556065.\n2. A. K. Sawhney, “Electronics and Electrical Measurements”, Dhanpat Rai and Sons. ISBN -81-7700-016-0\n
+
+             "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text55"
+            android:id="@+id/text56" />
+
+
+    </RelativeLayout>
+</ScrollView>

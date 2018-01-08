@@ -1,0 +1,757 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.vtuecesyllabus.Sem4ssoldActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:id="@+id/text1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_below="@+id/headinglin"
+                android:textSize="22dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0d0c0c"
+                android:layout_below="@+id/heading"
+                android:id="@+id/headinglin" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text1"
+                android:id="@+id/table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SIGNALS AND SYSTEMS "
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_column="0" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sub Code:10ES44"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Hrs. : 52"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total No. of Lecture Hours/Week : 04Hr "
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IA Marks : 25"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Marks: 100"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Hours : 03"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART-A  "
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-1 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction: "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Definitions of a signal and a system, classification of signals, basic Operations on signals, elementary signals, Systems viewed as Interconnections of operations, properties of systems. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hours  "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-2 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time-domain representations for LTI systems – 1:"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Convolution, impulse response representation, Convolution Sum and Convolution Integral.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hours "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-3  "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time-domain representations for LTI systems – 2:"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Properties of impulse   response representation, Differential and difference equation Representations, Block diagram representations.    "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hours"
+                        android:layout_gravity="right"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-4"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fourier representation for signals – 1:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Discrete time and continuous time Fourier series (derivation of series excluded) and their properties . "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hours "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART-B "
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:textColor="#1f10be"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-5 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fourier representation for signals – 2:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Discrete and continuous Fourier transforms(derivations of transforms are excluded) and their properties."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hours "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-6 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Applications of Fourier representations:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Frequency response of LTI systems, Fourier transform representation of periodic signals, Fourier transform representation of discrete time signals. Sampling theorm and Nyquist rate."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hours "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-7 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Z-Transforms – 1:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Z – transform, properties of ROC, properties of Z – transforms, inversion of Z – transforms.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hours "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-8 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Z-transforms – 2:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transform analysis of LTI Systems, unilateral Z- Transform and its application to solve difference equations. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hours "
+                        android:textSize="15dp"
+                        android:layout_gravity="right"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15dp"
+                        android:layout_gravity="right"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Text Books:  "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.   Simon Haykin, “Signals and Systems”, John Wiley India Pvt. Ltd., 2nd  Edn, 2008.\n2. Michael Roberts, “Fundamentals of Signals and Systems”, 2nd ed, Tata McGraw-Hill, 2010  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\nReference Books: "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Alan V Oppenheim, Alan S, Willsky and A Hamid Nawab, “Signals and Systems” Pearson Education Asia / PHI, 2nd edition, 1997. Indian Reprint 2002\n2. H. P Hsu, R. Ranjan, “Signals and Systems”, Scham’s outlines, TMH, 2006\n3. B. P. Lathi, “Linear Systems and Signals”, Oxford University Press, 2005\n4. Ganesh Rao and Satish Tunga, “Signals and Systems”, Pearson/Sanguine Technical Publishers, 2004 "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="******"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\n"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+            </TableLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/linear">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="   Electronics and Communication Eng.:Semester-4"
+    android:id="@+id/heading1"
+    android:textSize="13dp"
+    android:textStyle="bold"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#cd4a4de1"
+    android:textColor="#ffffff" />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#0d0c0c"
+    android:layout_below="@+id/heading1"
+    android:id="@+id/headinglin1" />
+
+
+<!-- view for AdMob Banner Ad -->
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>
+    </RelativeLayout>

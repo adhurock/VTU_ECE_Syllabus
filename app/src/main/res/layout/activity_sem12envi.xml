@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem12enviActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-1/2"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f863024c"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENVIRONMENTAL STUDIES"
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15CIV18/15CIV28"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COURSE OBJECTIVES:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. To identify the major challenges in environmental issues and evaluate possible solutions.\n2. Develop analytical skills, critical thinking and demonstrate socio-economic skills for sustainable development.\n3. To analyze an overall impact of specific issues and develop environmental management plan. "
+                    android:id="@+id/text9"
+                    android:textSize="15dp"
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/table"
+            android:textSize="10dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="2dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction: Environment - Components of Environment Ecosystem: Types and Structure of Ecosystem, Balanced ecosystem Human Activities – Food, Shelter, And Economic and Social Security."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Impacts of Agriculture and Housing Impacts of Industry, Mining and Transportation Environmental Impact Assessment, Sustainable Development.                    "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natural Resources, Water resources – Availability and Quality aspects, Water borne diseases and water induced diseases, Fluoride problem in drinking water Mineral resources, Forest Wealth Material Cycles – Carbon Cycle, Nitrogen Cycle and Sulphur Cycle. "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text16"
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energy – Different types of energy, Conventional sources and Non Conventional sources of energy Solar energy, Hydro electric energy, Wind Energy, Nuclear energy, Biomass and Biogas Fossil Fuels, Hydrogen as an alternative energy. "
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+            android:id="@+id/text18" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Environmental Pollution – Water Pollution, Noise pollution, Land Pollution, Public Health Aspects. "
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Global Environmental Issues: Population Growth, Urbanization, Land Management, Water and Waste Water Management. "
+            android:layout_marginTop="0.00000000001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text20"
+            android:id="@+id/text21" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text21"
+            android:id="@+id/text22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Pollution and Automobile Pollution: Definition, Effects – Global Warming, Acid rain and Ozone layer depletion, controlling measures."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text22"
+            android:id="@+id/text23" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solid Waste Management, E - Waste Management and Biomedical Waste Management - Sources, Characteristics and Disposal methods.  "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text23"
+            android:id="@+id/text24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to GIS and Remote sensing, Applications of GIS and Remote Sensing in Environmental Engineering Practices."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Environmental Acts and Regulations, Role of government, Legal aspects, Role of Non-governmental Organizations (NGOs) , Environmental Education and Women Education. "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+
+            android:id="@+id/text28" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n                                           *****"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text28"
+
+            android:id="@+id/text29" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Outcome:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text29"
+            android:id="@+id/text30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Students will be able to,\n1. Understand the principles of ecology and environmental issues that apply to air,land, and water issues on a global scale,\n2. Develop critical thinking and/or observation skills, and apply them to the analysis of a problem or question related to the environment,\n3. Demonstrate ecology knowledge of a complex relationship between biotic and abiotic components\n4. Apply their ecological knowledge to illustrate and graph a problem and describe the realities that managers face when dealing with complex issues. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text30"
+            android:id="@+id/text31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text31"
+            android:id="@+id/text32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Benny Joseph (2005), “Environmental Studies”, Tata McGraw – Hill Publishing Company Limited.\n2. R.J.Ranjit Daniels and Jagadish Krishnaswamy, (2009), “Environmental Studies”, Wiley     India Private Ltd., New Delhi.\n3. R Rajagopalan, “Environmental Studies – From Crisis to Cure”, Oxford University     Press, 2005,\n4. Aloka Debi, “Environmental Science and Engineering”, Universities Press (India) Pvt. Ltd. 2012.    "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text32"
+            android:id="@+id/text33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Raman Sivakumar, “Principals of Environmental Science and Engineering”, Second     Edition, Cengage learning Singapore, 2005\n2. P. Meenakshi, “Elements of Environmental Science and Engineering”, Prentice Hall     of India Private Limited, New Delhi, 2006\n3. S.M. Prakash, “Environmental Studies”, Elite Publishers Mangalore, 2007\n4. Erach Bharucha, “Text Book of Environmental Studies”, for   UGC, University press, 2005\n5. G.Tyler Miller Jr., “Environmental Science – working with the Earth”, Tenth Edition, Thomson Brooks /Cole, 2004\n6. G.Tyler Miller Jr., “Environmental Science – working with the Earth”, Eleventh      Edition,  Thomson Brooks /Cole, 2006\n7. Dr.Pratiba Sing, Dr.AnoopSingh and Dr.Piyush Malaviya, “Text Book of Environmental and Ecology”, Acme Learning Pvt. Ltd. New Delhi.\n
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+
+    </RelativeLayout>
+</ScrollView>

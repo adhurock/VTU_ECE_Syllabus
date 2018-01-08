@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem12worklabActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-1/2"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f863024c"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WORKSHOP PRACTICE LABORATORY  "
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15WSL16/15WSL26"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 02"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours/Week : 01Hr Tutorial(Instructions)+02 Hours Laboratory."
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COURSE OBJECTIVES: "
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text0"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•To impart knowledge and skill to use tools, machines, equipment, and measuring instruments.\n•Educate students of Safe handling of machines and tools. "
+                    android:textSize="15dp"
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Module -1: "
+                    android:id="@+id/text9"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Demonstration on use of Hand Tools: V-block, Marking Gauge, Files, Hack Saw, Drills, Taps.Minimum 3 models involving Dove tail joint,Triangular joint and Semicircular joint. \n2. Welding: Study of electric arc welding tools and equipments, Models: Butt Joint, Lap Joint, T joint and L-joint.\n3. Sheet Metal and Soldering Work: Development and Soldering of the models: Tray, Frustum of cone, Prism(Hexagon and Pentagon),Truncated Square Pyramid, Funnel. "
+            android:layout_below="@+id/table"
+            android:textSize="15dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course outcomes: "
+            android:layout_marginTop="11dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At the end of the course, the student will be able to:\n1. Demonstrate and produce different types of fitting models.\n2. Gain knowledge of development of sheet metal models with an understanding of their applications.\n3. Perform soldering and welding of different sheet metal and welded joints.\n4. Understand the Basics of Workshop practices.    "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Reference Books:"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Elements of Workshop Technology:Vol I:Manufacturing Processes, S K Hajra.\nChoudhury, A K. Hajra Choudhury,15th Edition Reprinted 2013,Media Promoters and Publishers Pvt Ltd., Mumbai.\n
+
+                                         ******"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+    </RelativeLayout>
+</ScrollView>

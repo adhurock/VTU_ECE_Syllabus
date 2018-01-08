@@ -1,0 +1,833 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.vtuecesyllabus.Sem3eioldActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:id="@+id/text1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_below="@+id/headinglin"
+                android:textSize="22dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0d0c0c"
+                android:layout_below="@+id/heading"
+                android:id="@+id/headinglin" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text1"
+                android:id="@+id/table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ELECTRONIC INSTRUMENTATION"
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sub Code:10IT35  "
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Hrs. : 52"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total No. of Lecture Hours/Week : 04Hr "
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IA Marks : 25"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Marks: 100"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Hours : 03"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART-A  "
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="#3406a6"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-1 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction\n(a) Measurement Errors"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gross errors and systematic errors, Absolute and relative errors, Accuracy, Precision, Resolution and Significant figures.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 3 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(b) Voltmeters and Multimeters:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Multirange voltmeter, Extending voltmeter ranges, Loading, AC voltmeter using Rectifiers – Half wave and full wave, Peak responding and True RMS voltmeters."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 4 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-2:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Digital Instruments:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Digital Voltmeters – Introduction, DVM’s based on   V – T,  V – F and Successive approximation principles, Resolution and sensitivity, General specifications, Digital Multi-meters,  Digital frequency meters, Digital measurement of time."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-3: "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oscilloscopes :"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Basic principles, CRT features, Block diagram and working of each block, Typical CRT connections, Dual beam and dual trace CROs, Electronic switch."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-4:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special Oscilloscopes:"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delayed time-base oscilloscopes, Analog  storage, Sampling and Digital storage oscilloscopes. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs  "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART B"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:textColor="#3506ab"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-5: "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Signal Generators:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Fixed and variable AF oscillator, Standard signal generator, Laboratory type signal generator, AF sine and Square wave generator, Function generator, Square and Pulse generator, Sweep frequency generator, Frequency synthesizer.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs"
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-6: "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Measurement of resistance, inductance and capacitance:"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whetstone’s bridge, Kelvin Bridge; AC bridges, Capacitance Comparison Bridge, Maxwell’s bridge, Wein’s bridge, Wagner’s earth connection ."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT 7: "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transducers - I "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Electrical transducers, Selecting a transducer, Resistive transducer, Resistive position transducer, Strain gauges, Resistance thermometer, Thermistor, Inductive transducer, Differential output  transducers and LVDT."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-8: "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Miscellaneous Topics\n(a) Transducers - II "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Piezoelectric transducer, Photoelectric transducer, Photovoltaic transducer, Semiconductor photo devices, Temperature transducers-RTD, Thermocouple .   "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(b) Display devices:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Digital display system, classification of display, Display devices, LEDs, LCD displays.\n(c) Bolometer and RF power measurement using Bolometer\n(d) Introduction to Signal conditioning.\n(e) Introduction to LabView.   "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Text Book: "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. “Electronic Instrumentation”, H. S. Kalsi,  TMH, 3rd  2010\n2. “Electronic Instrumentation and Measurements”, David A Bell, PHI / Pearson Education, 2006. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\nReference Books: "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. “Principles of measurement systems”, John P. Beately, 3rd Edition, Pearson Education, 2000.\n2.  “Modern electronic instrumentation and measuring techniques”, Cooper D and A D Helfrick, PHI, 1998.\n3. Electronics and electrical measurements, A K Sawhney, , Dhanpat Rai and sons, 9th edition. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\n"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+            </TableLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/linear">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="   Electronics and Communication Eng.:Semester-3"
+    android:id="@+id/heading1"
+    android:textSize="13dp"
+    android:textStyle="bold"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#cd4a4de1"
+    android:textColor="#ffffff" />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#0d0c0c"
+    android:layout_below="@+id/heading1"
+    android:id="@+id/headinglin1" />
+
+
+<!-- view for AdMob Banner Ad -->
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>
+    </RelativeLayout>

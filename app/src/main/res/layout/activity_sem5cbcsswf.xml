@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem5cbcsswfActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-5"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cd4a4de1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SWITCHING AND FINITE  AUTOMATA THEORY "
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15EC552"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 04"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/text9"
+                    android:textSize="0dp"
+                    android:textStyle="bold"
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/table"
+            android:textSize="10dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Threshold Logic:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introductory Concepts: Threshold element, capabilities and limitations of threshold logic, Elementary Properties, Synthesis of Threshold networks:  Unate functions, Identification and realization of threshold functions, The map as a tool in synthesizing threshold networks. (Sections 7.1, 7.2 of Text)  "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reliable Design and Fault Diagnosis:"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hazards, static hazards, Design of Hazard-free Switching Circuits, Fault detection in combinational circuits, Fault detection in combinational circuits: The faults, The Fault Table, Covering the fault table, Fault location experiments: Preset experiments, Adaptive experiments, Boolean differences, Fault detection by path sensitizing. (Sections 8.1, 8.2, 8.3, 8.4, 8.5 of Text)"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text16"
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+            android:id="@+id/text18" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequential Machines: Capabilities, Minimization and Transformation"
+            android:layout_marginTop="0.0001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Finite state model and definitions, capabilities and limitations of finite state machines, State equivalence and machine minimization: k-equivalence, The minimization Procedure, Machine equivalence, Simplification of incompletely specified machines. (Section 10.1, 10.2, 10.3, 10.4 of Text)"
+            android:layout_marginTop="0.00000000001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text20"
+            android:id="@+id/text21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text21"
+            android:id="@+id/text22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Structure of Sequential Machines:"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text22"
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introductory example, State assignment using partitions: closed partitions, The lattice of closed partitions, Reduction of output dependency, Input dependence and autonomous clocks, Covers and generation of closed partitions by state splitting: Covers, The implication graph, An application of state splitting to parallel decomposition. (Section 12.1, 12.2, 12.3, 12.4, 12.5, 12.6 of Text)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text23"
+            android:id="@+id/text24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State–Identification and Fault Detection Experiments:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiments, Homing experiments, Distinguishing experiments, Machine identification, Fault detection experiments, Design of diagnosable machines, Second algorithm for the design of fault detection experiments. (Sections 13.1, 13.2, 13.3, 13.4, 13.5, 13.6, 13.7 of Text) "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+            android:id="@+id/text28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n                                           *****"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text28"
+            android:id="@+id/text29" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text29"
+            android:id="@+id/text30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text30"
+            android:id="@+id/text31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text31"
+            android:id="@+id/text32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switching and Finite Automata Theory - Zvi Kohavi, McGraw Hill, 2nd edition, 2010  ISBN: 0070993874. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text32"
+            android:id="@+id/text33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Fault Tolerant And Fault Testable Hardware Design- Parag K Lala, Prentice Hall Inc. 1985.\n2. Digital Circuits and Logic Design.-Charles Roth Jr, Larry L. Kinney, Cengage Learning, 2014, ISBN: 978-1-133-62847-7.\n
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,845 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.vtuecesyllabus.Sem7rfoldActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:id="@+id/text1"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_below="@+id/headinglin"
+                android:textSize="22dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0d0c0c"
+                android:layout_below="@+id/heading"
+                android:id="@+id/headinglin" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/text1"
+                android:id="@+id/table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="RADIO FREQUENCY INTEGRATED\n CIRCUITS"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/headinglin"
+                        android:textSize="21dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sub Code:10EC764"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Hrs. : 52"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total No. of Lecture Hours/Week : 04Hr "
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IA Marks : 25"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Marks: 100"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Hours : 03"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART-A  "
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="#110fb1"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-1 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OVERVIEW OF WIRELESS PRINCIPLES:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" A brief history of wireless systems, Noncellular wireless applications, Shannon, Modulations and Alphabet Soup, Propagation."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 Hrs  "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PASSIVE RLC NETWORKS: "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Parallel RLC Tank, Series RLC Networks, Other RLC networks, RLC Networks as impedance Transformers. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 Hrs  "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-2 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHARACTERISTICS OF PASSIVE IC COMPONENTS: "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Interconnect at radio frequencies: Skin effect, resisters, Capacitors, Inductors, Transformers, Interconnect options at high frequency.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-3  "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A REVIEW OF MOS DEVICE PHYSICS:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, A little history, FETs, MOSFET physics, The long – channels approximation, operation in weak inversion (sub threshold), MOS device physics in the short – channel regime, Other effects. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 Hrs"
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" DISTRIBUTED SYSTEMS:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Link between lumped and distributed regimes driving-point impedance of iterated structures, Transmission lines in more detail, Behavior of Finite – length transmission lines, summary of transmission line equations, artificial lines.   "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 Hrs"
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-4"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THE SMITH CHART AND S-PARAMETERS: "
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, The smith chart, S-parameters, Band Width Estimation Techniques, Introduction, The method of open – circuit time constant, The method of short circuit time constant, Risetime, Delay and bandwidth.    "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PART-B "
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:textColor="#1a0b87"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-5 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HIGH FREQUENCY AMPLIFIER DESIGN:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Zeros as bandwidth Enhancers, The shunt –series amplifier, Bandwidth Enhancement with fT Doublers, Tuned amplifiers, Neutralization and unilateralization, Cascaded amplifiers, AM – PM conversion.   "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-6 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VOLTAGE REFERENCES AND BIASING:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Review of diode behavior, Diodes and bipolar transistors in CMOS technology, Supply –independent bias circuits, Bandgap voltage reference, Constant gm bias. Noise: Introduction, Thermal noise, Shot noise, Flicker noise, Popcorn noise, Classical two- port noise theory, Examples of noise calculations, A handy rule of thumb, Typical noise performance. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-7 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LOW NOISE AMPLIFIER DESIGN:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Introduction, Derivation of intrinsic MOSFET two-port noise parameters, LNA topologies: Power match versus noise match, Power-constrained noise optimization, Design examples, linearity and large signal performance, Spurious – free Dynamic range."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mixers:"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Introduction, Mixer fundamental, Nonlinear systems as linear mixers.  "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hrs "
+                        android:layout_gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UNIT-8 "
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Multiplier – based mixers, Sub sampling mixers, Diode ring mixers, RF power amplifiers, Introduction, general considerations, Class A, AB, B and C power amplifier, Class D amplifiers, Class E amplifiers   Class F amplifiers,  Modulation of power amplifiers, summary of PA characteristics, RF PA design examples, additional design considerations, Design summery. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Hrs "
+                        android:textSize="15dp"
+                        android:layout_gravity="right"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15dp"
+                        android:layout_gravity="right"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Text Books:  "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. The design of CMOS radio-frequency integrated circuit, Thomas H. Lee, 2nd edition Cambridge, 2004. "
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\nReference Books: "
+                        android:textSize="19dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Design of Analog CMOS integrated circuit, Behzad Razavi, Tata Mc Graw Hill, 2005."
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="******"
+                        android:layout_gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\n"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_column="0" />
+                </TableRow>
+            </TableLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/linear">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="   Electronics and Communication Eng.:Semester-7"
+    android:id="@+id/heading1"
+    android:textSize="13dp"
+    android:textStyle="bold"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="#cd4a4de1"
+    android:textColor="#ffffff" />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="#0d0c0c"
+    android:layout_below="@+id/heading1"
+    android:id="@+id/headinglin1" />
+
+
+<!-- view for AdMob Banner Ad -->
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>
+    </RelativeLayout>
+

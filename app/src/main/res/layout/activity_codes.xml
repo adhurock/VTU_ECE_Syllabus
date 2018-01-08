@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.vtuecesyllabus.CodesActivity">
+
+    <!-- view for AdMob Interstitial Ad -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/interstitial_ad_sample"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start_level"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/next_level" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics and Comm. Eng.:DIP Maths Syllabus For 2015 -2019"
+        android:id="@+id/heading"
+        android:textSize="11dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#310163"
+        android:textColor="#ffffff" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/heading"
+        android:id="@+id/headinglin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Additional Mathematics - I                 "
+        android:id="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:textAllCaps="false"
+        android:layout_below="@+id/headinglin"
+        android:textSize="18dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/button1"
+        android:id="@+id/lin1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Additional Mathematics - II                 "
+        android:id="@+id/button2"
+        android:background="#ffffff"
+        android:textSize="18dp"
+        android:layout_below="@+id/lin1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/button2"
+        android:id="@+id/lin2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Note:"
+        android:id="@+id/text"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lin2"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Mandatory Learning Course :\n     Common to All Branches\n     A Bridge course for Lateral Entry students of \n     IV Sem. B. E"
+        android:id="@+id/text1"
+        android:textSize="15dp"
+        android:layout_below="@+id/text"
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem12caedActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-1/2"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f863024c"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COMPUTER AIDED ENGINEERING DRAWING "
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15CED14/15CED24"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 06(2T+4L)"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 84"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/text9"
+                    android:textSize="0dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/table"
+            android:textSize="10dp"
+            android:id="@+id/text10" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to Computer Aided Sketching"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Drawing Instruments and their uses, BIS conventions, Lettering, Dimensioning and free hand practicing. Computer screen, layout of the software, standard tool bar/menus and description of most commonly used tool bars, navigational tools. Co-ordinate system and reference planes.  of HP, VP, RPP and LPP.  of 2D/3D environment. Selection of drawing size and scale. Commands and creation of Lines, Co-ordinate points, axes, poly-lines, square, rectangle, polygons, splines, circles, ellipse, text, move, copy, off-set, mirror, rotate, trim, extend, break, chamfer, fillet, curves, constraints viz. tangency, parallelism, inclination and perpendicularity. Dimensioning, line conventions, material conventions and lettering. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orthographic projections:"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Definitions - Planes of projection, reference line and conventions employed, Projections of points in all the four quadrants, Projections of straight lines (located in First quadrant/first angle only), True and apparent lengths, True and apparent inclinations to reference planes (No application problems)."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text16"
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orthographic Projections of Plane Surfaces (First Angle Projection Only)\nIntroduction, Definitions–projections of plane surfaces–triangle, square, rectangle, rhombus, pentagon, hexagon and circle, planes in different positions by change of position method only (No problems on punched plates and composite plates)."
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+            android:id="@+id/text18" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projections of Solids:"
+            android:layout_marginTop="0.0001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(First angle Projection only)\nIntroduction, Definitions – Projections of right regular tetrahedron, hexahedron (cube), prisms, pyramids, cylinders and cones in different positions (No problems on octahedrons and combination solid). "
+            android:layout_marginTop="0.00000000001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text20"
+            android:id="@+id/text21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text21"
+            android:id="@+id/text22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sections And Development of Lateral Surfaces of Solids "
+            android:layout_marginTop="1dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text22"
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Section planes, Sections, Section views, Sectional views, Apparent shapes and True shapes of Sections of right regular prisms, pyramids, cylinders and cones resting with base on HP. (No problems on sections of solids)\nDevelopment of lateral surfaces of above solids, their frustums and truncations. (No problems on lateral surfaces of trays, tetrahedrons, spheres and transition pieces)."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text23"
+            android:id="@+id/text24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isometric Projection:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Using Isometric Scale Only)\nIntroduction, Isometric scale, Isometric projection of simple plane figures, Isometric projection of tetrahedron, hexahedron(cube), right regular prisms, pyramids, cylinders, cones, spheres, cut spheres and combination of solids (Maximum of three solids).\n
+
+                                         ******"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course outcomes: "
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+            android:id="@+id/text28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After studying this course,\n1. Students will be able to demonstrate the usage of CAD software.\n2. Students will be able to visualize and draw Orthographic projections, Sections of solids and Isometric views of solids.\n3. Students are evaluated for their ability in applying various concepts to solve practical problems related to engineering drawing."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text28"
+            android:id="@+id/text29" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text29"
+            android:id="@+id/text30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Module -1 is only for practice and Internal Assessment and not for examination.\n2. Question paper for each batch of students will be sent online by VTU and has to be downloaded before the commencement of Examination of each batch. The answer sheets will have to be jointly evaluated by the Internal and External examiners.\n3. A maximum of THREE questions will be set as per the following pattern (No mixing of questions from different Modules).Students have to submit the computer printouts and the sketches drawn on the graph sheets at the end of the examination. Both Internal and External examiners have to jointly evaluate the solutions (sketches) and computer display and printouts of each student for 80 marks (35 marks for solutions and sketches + 45 marks for computer display and printouts) and submit the marks list along with the solution (sketches) on graph sheets and computer printouts in separate covers.\n4. Each batch must consist of a minimum of 10 students and a maximum of 12 students.\n5. Examination can be conducted in parallel batches, if necessary. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text30"
+            android:id="@+id/text31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text31"
+            android:id="@+id/text32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) Engineering Drawing - N.D. Bhatt and V.M. Panchal, 48th edition, 2005- Charotar Publishing House, Gujarat. \n2) 'Computer Aided Engineering Drawing' by Dr. M H Annaiah, Dr C N Chandrappa and Dr B Sudheer Premkumar Fifth edition, New Age International Publishers. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text32"
+            android:id="@+id/text33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) Computer Aided Engineering Drawing - S. Trymbaka Murthy, - I.K. International Publishing House Pvt. Ltd., New Delhi, 3rd  revised edition- 2006.\n2) Engineering Graphics - K.R. Gopalakrishna, 32nd edition, 2005- Subash Publishers Bangalore.\n3) Fundamentals of Engineering Drawing with an Introduction to Interactive Computer Graphics for Design and Production- Luzadder Warren J., Duff John M., Eastern Economy Edition, 2005- Prentice-Hall of India Pvt. Ltd., New Delhi.\n4)  A Primer on Computer Aided Engineering Drawing-2006, Published by VTU, Belgaum.\n
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+    </RelativeLayout>
+</ScrollView>

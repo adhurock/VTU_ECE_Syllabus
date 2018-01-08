@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem4cbcsmplabActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-4"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cdb559d1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MICROPROCESSOR LABORATORY  "
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15ECL47"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 02"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours/Week : 01Hr Tutorial(Instructions)+02 Hours Laboratory."
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Objectives:"
+                    android:id="@+id/text9"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This laboratory course enables students to:\no Get familiarize with 8086 instructions and DOS 21H interrupts and function calls.\no Develop and test assembly language programs to use instructions of 8086.\no Get familiarize with interfacing of various peripheral devices with 8086 microprocessor for simple applications."
+            android:layout_below="@+id/table"
+            android:textSize="15dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laboratory Experiments:"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Programs involving:\nData transfer instructions like:\n   i)Byte  and  word  data  transfer indifferent addressing Modes\n   ii) Block move (with and without overlap)\n   iii) Block interchange\n2. Programs involving:\nArithmetic and logical operations like:\n   i) Addition and Subtraction of multi precision nos.\n   ii)Multiplication and Division of signed and unsigned Hexadecimal nos.\n   iii) ASCII adjustment instructions\n   iv) Code conversions\n3. Programs involving:  Bit manipulation instructions like checking:\n   i) Whether given data is positive or negative\n   ii) Whether given data is odd or even\n   iii) Logical 1‟s and 0‟s in a given data\n   iv) 2 out 5 code\n   v) Bit wise and nibble wise palindrome\n4. Programs involving:\nBranch/L  Loop instructions like\n   i) Arrays: addition/subtraction of N nos., Finding largest and smallest nos., Ascending and descending order\n   ii) Two application programs using Procedures and Macros (Subroutines)\n5. Programs involving  String manipulation like string transfer, string reversing, searching for a string\n6. Programs involving  Programs to use DOS interrupt INT 21h Function calls for Reading a Character from keyboard, Buffered Keyboard input, Display of character/ String on console\n7. Interfacing Experiments:  Experiments on interfacing 8086 with the following interfacing modules through DIO (Digital Input/Output - PCI bus compatible card / 8086 Trainer )\n   1. Matrix keyboard interfacing\n   2. Seven segment display interface\n   3. Logical controller interface\n   4. Stepper motor interface\n   5. ADC and DAC Interface (8 bit)\n   6. Light dependent resistor ( LDR ), Relay and   Buzzer Interface to make light operated switches "
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Outcomes :"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On the completion of this laboratory course, the students will be able to:\n•Program a microprocessor to perform arithmetic, logical and data transfer applications.\n•Understand assembler directives, DOS Interrupts, branch and loop operations.\n•Interface a microprocessor to various devices for simple applications.\n•Effectively utilize microprocessor peripherals.\n•Utilize procedures and macros for modular programming."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conduct of Practical Examination:"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• All laboratory experiments are to be included for practical examination.\n• For examination, one question from software and one question from hardware interfacing to be set.\n• Students are allowed to pick one experiment from the lot.\n• Change of experiment is allowed only once, in which case Procedure part Marks to be made zero.\n
+
+                                           ***"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text16"
+            android:id="@+id/text17" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

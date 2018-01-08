@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Semester7oldActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Electronics and Communication Eng.:Semester-7"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cd59d1b9"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Computer Communication Networks  "
+            android:id="@+id/ccnold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/headinglin"
+            android:background="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="17dp" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/ccnold"
+            android:id="@+id/lin1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Optical Fiber Communication               "
+            android:id="@+id/ofcold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/ofcold"
+            android:id="@+id/lin2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Power Electronics                                  "
+            android:id="@+id/peold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/peold"
+            android:id="@+id/lin3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Embeded System Design                      "
+            android:id="@+id/esdold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/esdold"
+            android:id="@+id/lin4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="VLSI Lab                                                  "
+            android:id="@+id/vlsilabold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/vlsilabold"
+            android:id="@+id/lin5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Power Electronics Lab                            "
+            android:id="@+id/pelabold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/pelabold"
+            android:id="@+id/lin6" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E1: DSP Algorithms and Architecture"
+            android:id="@+id/daaold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/daaold"
+            android:id="@+id/lin7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E1:Micro and Smart Systems               \nTechnology                                            "
+            android:id="@+id/msold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/msold"
+            android:id="@+id/lin8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E1:Artificial Neural Network                  "
+            android:id="@+id/anold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/anold"
+            android:id="@+id/lin9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E1:CAD For VLSI                                       "
+            android:id="@+id/cadold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/cadold"
+            android:id="@+id/lin10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text=" E1:Applied Embedded System Desig      "
+            android:id="@+id/aeold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/aeold"
+            android:id="@+id/lin11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E1:Speech Processing                               "
+            android:id="@+id/spold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin11"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/spold"
+            android:id="@+id/lin12" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:Programming in c++                              "
+            android:id="@+id/pcold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin12"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/pcold"
+            android:id="@+id/lin13" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:Real Time Systems                                "
+            android:id="@+id/rtold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin13"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/rtold"
+            android:id="@+id/lin14" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:Image Processing                                  "
+            android:id="@+id/ipold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/ipold"
+            android:id="@+id/lin15" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:Radio Frequency Integrated Circuits  "
+            android:id="@+id/rfold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin15"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/rfold"
+            android:id="@+id/lin16" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:WAVELET Transforms                           "
+            android:id="@+id/wtold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin16"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/wtold"
+            android:id="@+id/lin17" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="E2:Modeling and Simulatin of Data          \nNetworks                                                      "
+            android:id="@+id/mnold"
+            android:background="#ffffff"
+            android:textSize="17dp"
+            android:layout_below="@+id/lin17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/mnold"
+            android:id="@+id/lin18" />
+
+    </RelativeLayout>
+</ScrollView>

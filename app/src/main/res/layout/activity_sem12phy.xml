@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem12phyActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics and Communication Eng.:Semester-1/2"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f863024c"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENGINEERING PHYSICS"
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15PHY12/15PHY22"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 04"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COURSE OBJECTIVES:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Objective of this course is to make students learn and understand basic concepts and principles of physics to analyze practical engineering problems and apply its solutions effectively and meaningfully. To understand building up of models, design issues, practical oriented skills and problem solving challenges are the great task of the course. To know about shock waves and practical applications is the prime motto to introduce new technology at the initial stage of Engineering. "
+                    android:id="@+id/text9"
+                    android:textSize="15dp"
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/table"
+            android:textSize="10dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modern Physics and Quantum Mechanics:"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black body radiation spectrum, Assumptions of quantum theory of radiation, Plank’s law, Weins law and Rayleigh Jeans law, for shorter and longer wavelength limits. Wave Particle dualism, deBroglie hypothesis. Compton Effect. Matter waves and their Characteristic properties, Definition of Phase velocity and group velocity, Relation between phase velocity and group velocity, Relation between group velocity and particle velocity.Heisenberg’s uncertainity principle and its application, (Non-existence of electron in the nucleus).Wave function, Properties and physical significance of wave function, Probability density and Normalization of wave function. Setting up of one dimensional time independent Schrodinger wave equation. Eigen values and Eigen functions. Application of Schrodinger wave equation  for a particle in a potential well of infinite depth and for free particle.             "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical Properties of Materials:"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text15"
+            android:id="@+id/text16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free–electron concept (Drift velocity, Thermal velocity, Mean collision time, Mean free path, relaxation time).  Failure of classical free electron theory. Quantum free electron theory, Assumptions, Fermi factor, density of states (qualitative only) Fermi–Dirac Statistics. Expression for electrical conductivity based on quantum free electron theory, Merits of quantum free electron theory."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text16"
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conductivity of Semi conducting materials, Concentration of electrons and holes in intrinsic semiconductors, law of mass action.Temperature dependence of resistivity in metals and superconducting materials. Effect of magnetic field (Meissner effect). Type I and Type II superconductors–Temperature dependence of critical field. BCS theory (qualitative). High temperature superconductors. Applications of superconductors –. Maglev vehicles."
+            android:layout_marginTop="0.0001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+            android:id="@+id/text18" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+            android:id="@+id/text19" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lasers and Optical Fibers:"
+            android:layout_marginTop="0.0001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einstein’s coefficients (expression for energy density). Requisites of a Laser system. Condition for laser action. Principle, Construction and working of CO2 laser and semiconductor Laser. Applications of Laser – Laser welding, cutting and drilling. Measurement of atmospheric pollutants. Holography–Principle of Recording and reconstruction of images.\nPropagation mechanism in optical fibers. Angle of acceptance. Numerical aperture. Types of optical fibers and modes of propagation. Attenuation, Block diagram discussion of point to point communication, applications. "
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text20"
+            android:id="@+id/text21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text21"
+            android:id="@+id/text22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crystal Structure:"
+            android:layout_marginTop="1dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text22"
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Space lattice, Bravais lattice–Unit cell, primitive cell. Lattice parameters. Crystal systems. Direction and planes in a crystal. Miller indices. Expression for inter – planar spacing. Co-ordination number. Atomic packing factors (SC,FCC,BCC). Bragg’s law, Determination of crystal structure using Bragg’s X–ray difractometer. Polymarphism and Allotropy. Crystal Structure of Diamond, qualitative discussion of Pervoskites."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text23"
+            android:id="@+id/text24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text24"
+            android:id="@+id/text25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shock waves and Science of Nano Materials:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+            android:id="@+id/text26" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definition of Mach number, distinctions between- acoustic, ultrasonic, subsonic and supersonic waves. Description of a shock wave and its applications. Basics of conservation of mass, momentum and energy. Normal shock equations (Rankine-Hugonit equations). Method of creating shock waves in the laboratory using a shock tube, description of hand operated Reddy shock tube and its characteristics.\nIntroduction to Nano Science,  Density of states in 1D, 2D and 3D structures. Synthesis : Top–down and Bottom–up approach, Ball Milling and Sol–Gel methods.\nCNT – Properties, synthesis: Arc discharge, Pyrolysis methods,Applications.\nScanning Electron microscope: Principle, working and applications.\n
+
+                                               *****"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+            android:id="@+id/text27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course outcomes: "
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+            android:id="@+id/text28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On Completion of this course, students are able to –\n• Learn and understand more about basic principles and to develop problem solving skills and implementation in technology.\n• Gain Knowledge about Modern physics and quantum mechanics will update the basic concepts to implement the skills.\n• Study of material properties and their applications is the prime role to understand and use in engineering applications and studies.\n• Study Lasers and Optical fibers and its applications are to import knowledge and to develop skills and to use modern instruments in the engineering applications.\n• Understand Crystal structure and applications are to boost the technical skills and its applications.\n• Expose shock waves concept and its applications will bring latest technology to the students at the first year level to develop research orientation programs at higher semester level.\n• Understand basic concepts of nano science and technology."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text28"
+            android:id="@+id/text29" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text29"
+            android:id="@+id/text30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text30"
+            android:id="@+id/text31" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text31"
+            android:id="@+id/text32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Wiley precise Text, Engineering Physics, Wiley India Private Ltd., New Delhi. Book series – 2014,\n2. Dr. M.N. Avadhanulu, Dr. P.G.Kshirsagar, Text Book of Engineering Physics, S Chand Publishing, New Delhi - 2012  "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text32"
+            android:id="@+id/text33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. S.O.Pillai, Solid State Physics, New Age International. Sixth Edition.\n2. Chintoo S Kumar ,K Takayana and K P J Reddy, Shock waves made simple, Willey India Pvt. Ltd. New Delhi,2014\n3. A Marikani, Engineering Physics, PHI Learning Private Limited, Delhi - 2013\n4. Prof. S. P. Basavaraju, Engineering Physics, Subhas Stores, Bangalore – 2 5. V Rajendran ,Engineering Physics, Tata Mc.Graw Hill Company Ltd., New Delhi - 2012\n6. S Mani Naidu, Engineering Physics, Pearson India Limited - 2014.\n
+
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text34"
+            android:id="@+id/text35" />
+
+    </RelativeLayout>
+</ScrollView>

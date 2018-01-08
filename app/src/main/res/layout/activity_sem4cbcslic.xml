@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem4cbcslicActivity"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-4"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cdb559d1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LINEAR INTEGRATED CIRCUITS"
+
+            android:id="@+id/text1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_below="@+id/headinglin"
+            android:textSize="25dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text1"
+            android:id="@+id/table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Code:15EC46"
+                    android:id="@+id/text2"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits : 04"
+                    android:textSize="18dp"
+                    android:id="@+id/text3"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Hours/Week : 04"
+                    android:id="@+id/text4"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Lecture Hours : 50"
+                    android:id="@+id/text5"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IA Marks : 20"
+                    android:id="@+id/text"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Marks: 80"
+                    android:id="@+id/text6"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Hours : 03"
+                    android:id="@+id/text7"
+                    android:textSize="18dp"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    "
+                    android:id="@+id/text8"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Objectives:"
+                    android:id="@+id/text9"
+                    android:textSize="21dp"
+                    android:textStyle="bold"
+
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" This course will enable students to:\n• Define the basic concepts of OP-Amp.\n• Define and describe various parameters of Op-Amp, its characteristics and specifications.\n• Discuss the effects of Input and Output voltage ranges upon Op-Amp circuits.\n• Sketch and Explain typical Frequency Response graphs for each of the Filter circuits showing Butterworth and Chebyshev responses where ever appropriate.\n•Describe and Sketch the various switching circuits of Op-Amps and analyze its operations.\n•Differentiate between various types of DACs and ADCs and evaluate the performance of each with neat circuit diagrams and assuming suitable inputs."
+            android:layout_below="@+id/table"
+            android:textSize="15dp"
+            android:id="@+id/text10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       MODULES"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text10"
+            android:id="@+id/text11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-1"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text11"
+            android:id="@+id/text12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text12"
+            android:id="@+id/text13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Level :L1,L2,L3"
+            android:layout_marginTop="2dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text13"
+            android:id="@+id/text14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operational Amplifier Fundamentals: "
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text14"
+
+            android:id="@+id/text15" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Op-amp circuit, Op-Amp parameters – Input and output voltage, CMRR and PSRR, offset voltages and currents, Input and output impedances, Slew rate and Frequency limitations. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text15"
+
+            android:id="@+id/text16" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OP-Amps as DC Amplifiers –"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text16"
+
+            android:id="@+id/text17" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Biasing OP-amps, Direct coupled voltage followers, Non-inverting amplifiers, inverting amplifiers, Summing amplifiers, and Difference amplifiers. Interpretation of OP-amp LM741 and TL081 datasheet. (Text1)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text17"
+
+            android:id="@+id/text18" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0.1dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text18"
+            android:id="@+id/text19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0.1dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text19"
+            android:id="@+id/text20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-2"
+            android:layout_marginTop="0.1dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text20"
+
+            android:id="@+id/text21" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text21"
+
+            android:id="@+id/text22" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text22"
+
+            android:id="@+id/text23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Op-Amps as AC Amplifiers:"
+            android:layout_marginTop="0.0001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text23"
+
+            android:id="@+id/text24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Capacitor coupled voltage follower, High input impedance – Capacitor coupled voltage follower, Capacitor coupled non inverting amplifiers, High input impedance – Capacitor coupled Non inverting amplifiers, Capacitor coupled inverting amplifiers, setting the upper cut-off frequency, Capacitor coupled difference amplifier. "
+
+            android:layout_marginTop="0.00000000001dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text24"
+
+            android:id="@+id/text25" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OP-Amp Applications:"
+            android:layout_marginTop="0.001dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text25"
+
+            android:id="@+id/text26" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Voltage sources, current sources and current sinks, current amplifiers, instrumentation amplifier, precision rectifiers. (Text1) "
+            android:layout_marginTop="0.1dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text26"
+
+            android:id="@+id/text27" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-3"
+            android:layout_marginTop="14dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text27"
+
+            android:id="@+id/text28" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text28"
+
+            android:id="@+id/text29" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text29"
+
+            android:id="@+id/text30" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Applications :"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text30"
+
+            android:id="@+id/text31" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Limiting circuits, Clamping circuits, Peak detectors, Sample and hold circuits, V to I and I to V converters, Differentiating Circuit,  Integrator Circuit,  Phase shift oscillator, Wein bridge oscillator, Crossing detectors, inverting Schmitt trigger. (Text 1)     Log and antilog amplifiers, Multiplier and divider. (Text2)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text31"
+
+            android:id="@+id/text32" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="0.1dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text32"
+
+            android:id="@+id/text33" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_marginTop="0.1dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text33"
+            android:id="@+id/text34" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-4"
+            android:layout_marginTop="0.000001dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text34"
+
+            android:id="@+id/text35" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text35"
+
+            android:id="@+id/text36" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text36"
+
+            android:id="@+id/text37" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Filters:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text37"
+
+            android:id="@+id/text38" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" First order and second order active Low-pass and high pass filters, Bandpass Filter, Bandstop Filter. (Text 1)"
+
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text38"
+
+            android:id="@+id/text39" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltage Regulators:"
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text39"
+
+            android:id="@+id/text40" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Series Op-amp regulator, IC voltage regulators. 723 general purpose regulators. (Text 2)"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text40"
+
+            android:id="@+id/text41" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODULE-5"
+            android:layout_marginTop="14dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text41"
+
+            android:id="@+id/text42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teaching Hours : 10"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text42"
+
+            android:id="@+id/text43" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RBT Levels : L1,L2,L3"
+            android:layout_marginTop="1dp"
+            android:textSize="14dp"
+            android:layout_below="@+id/text43"
+
+            android:id="@+id/text44" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phase locked loop: "
+            android:layout_marginTop="3dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text44"
+
+            android:id="@+id/text45" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Principles, Phase detector/comparator, VCO."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text45"
+
+            android:id="@+id/text46" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAC and ADC convertor:"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text46"
+
+            android:id="@+id/text47" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAC using R-2R, ADC using Successive approximation."
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text47"
+
+            android:id="@+id/text48" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other IC Application: "
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text48"
+
+            android:id="@+id/text49" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 555 timer, Basic timer circuit, 555 timer used as astable and monostable multivibrator.
+
+                                        *****"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text49"
+
+            android:id="@+id/text50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Outcomes :"
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text50"
+            android:id="@+id/text51" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After studying this course, students will be able to:\n• Explain Op-Amp circuit and parameters including CMRR, PSRR, Input and Output Impedances and Slew Rate\n•Design Op-Amp based Inverting, Non-inverting, Summing and Difference Amplifier\n•Design Op-Amp based AC Amplifiers including Voltage Follower, Inverting / Non- inverting and Difference Amplifier\n•Develop circuits for Op-Amp based Voltage / Current Sources and Sinks, Current, Instrumentation and  Precision Amplifiers .\n•Develop circuits for Op-Amp based linear and non-linear circuits comprising of limiting, clampling, Sample and Hold, Differentiator / Integrator Circuits, Peak Detectors ,Oscillators and Multiplier and Devider\n•Design first and Second Order Low Pass, High Pass, Band Pass, Band Stop Filters and Voltage Regulators\n•Explain applications of linear ICs in phase detector, VCO, DAC, ADC and Timer."
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text51"
+            android:id="@+id/text52" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question paper pattern : "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text52"
+            android:id="@+id/text53" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The question paper will have ten questions.\n•Each full question consists of 16marks.\n•There will be 2 full questions (with a maximum of four sub questions) from each module.\n•Each full question will have sub questions covering all the topics under a module. The students will have to answer 5 full questions, selecting one full question from  each module. "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text53"
+            android:id="@+id/text54" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books: "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text54"
+            android:id="@+id/text55" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. “Operational Amplifiers and Linear IC‟s”, David A. Bell, 2nd edition, PHI/Pearson, 2004. ISBN 978-81-203-2359-9.\n2. “Linear Integrated Circuits”, D. Roy Choudhury and Shail B. Jain, 4th  edition, Reprint 2006, New Age International  ISBN 978-81-224-3098-1.   "
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text55"
+            android:id="@+id/text56" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reference books:  "
+            android:layout_marginTop="11dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text56"
+            android:id="@+id/text57" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Ramakant A Gayakwad, “Op-Amps and Linear Integrated Circuits,” Pearson, 4th Ed, 2015.  ISBN 81-7808-501-1.\n2. B Somanathan Nair, “Linear Integrated Circuits: Analysis, Design and Applications,” Wiley India, 1st Edition, 2015.\n3. James Cox, “Linear Electronics Circuits and Devices”, Cengage Learning, Indian Edition, 2008, ISBN-13: 978-07-668-3018-7.\n4. Data Sheet: http://www.ti.com/lit/ds/symlink/tl081.pdf.\n
+
+"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/text57"
+            android:id="@+id/text58" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

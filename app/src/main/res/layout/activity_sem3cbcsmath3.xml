@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Sem3cbcsmath3Activity"
+    android:fillViewport="false">
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Electronics and Communication Eng.:Semester-3"
+          android:id="@+id/heading"
+          android:layout_alignParentRight="true"
+          android:textSize="14dp"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:background="#cdb559d1"
+          android:textColor="#ffffff" />
+      <View
+          android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="#0d0c0c"
+          android:layout_below="@+id/heading"
+          android:id="@+id/headinglin" />
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="ENGINEERING  MATHEMATICS-III"
+
+          android:id="@+id/text1"
+          android:textAlignment="center"
+          android:textStyle="bold"
+          android:layout_below="@+id/headinglin"
+          android:textSize="25dp" />
+
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/text1"
+          android:id="@+id/table">
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Sub Code:15MAT31"
+                  android:id="@+id/text2"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Credits : 04"
+                  android:textSize="21dp"
+                  android:id="@+id/text3"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="L-T-P : 4-0-0"
+                  android:id="@+id/text4"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Contact Hours/Week : 04"
+                  android:id="@+id/text5"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Total Hours : 80"
+                  android:id="@+id/text6"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="IA Marks : 20"
+                  android:id="@+id/text7"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Exam Hours : 03"
+                  android:id="@+id/text8"
+                  android:textSize="21dp"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"></TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="    "
+                  android:id="@+id/text9"
+                  android:layout_column="0" />
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Course Objectives:"
+                  android:id="@+id/text10"
+                  android:textSize="21dp"
+                  android:textStyle="bold"
+
+                  android:layout_column="0" />
+          </TableRow>
+      </TableLayout>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="The objectives of this course is to introduce students to the mostly used analytical and numerical methods in the different engineering fields by making them to learn Fourier series, Fourier transforms  and Z-transforms statistical methods numerical methods to solve algebraic and transcendental equations vector integration and calculus of variations. "
+          android:layout_below="@+id/table"
+          android:textSize="15dp"
+          android:id="@+id/text11" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="                       MODULES"
+          android:textAlignment="center"
+          android:layout_marginTop="3dp"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text11"
+
+          android:id="@+id/text12" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MODULE-1"
+          android:layout_marginTop="2dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text12"
+
+          android:id="@+id/text13" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Fourier Series:"
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text13"
+
+          android:id="@+id/text14" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Periodic functions, Dirichlet’s condition, Fourier Series of periodic functions with period 2π and with arbitrary period 2c. Fourier series of even and odd functions. Half range Fourier Series, practical harmonic analysis-Illustrative examples from engineering field."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text14"
+
+          android:id="@+id/text15" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MODULE-2"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text15"
+
+          android:id="@+id/text16" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Fourier Transforms:"
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text16"
+
+          android:id="@+id/text17" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Infinite Fourier transforms, Fourier sine and cosine transforms. Inverse Fourier transform."
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text17"
+
+          android:id="@+id/text18" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Z-Transforms:"
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text18"
+
+          android:id="@+id/text19" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Difference equations, basic definition, z-transform-definition,Standard z-transforms, Damping rule, Shifting rule, Initial value and final valuetheorems (without proof) and problems, Inverse z-transform. Applications of ztransforms to solve difference equations. "
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text19"
+
+          android:id="@+id/text20" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MODULE-3"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text20"
+
+          android:id="@+id/text21" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Statistical Methods: "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text21"
+
+          android:id="@+id/text22" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Review of measures of central tendency and dispersion.Correlation-Karl Pearson’s coefficient of correlation-problems. Regressionanalysis- lines of regression (without proof) –problems."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text22"
+
+          android:id="@+id/text23" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Curve Fitting:  "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text23"
+
+          android:id="@+id/text24" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Curve fitting by the method of least squares- fitting of the curves of the form, y = ax + b,  y = ax2 + bx + c and y = ae^(bx)."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text24"
+
+          android:id="@+id/text25" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Numerical Methods:"
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text25"
+
+          android:id="@+id/text26" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Numerical solution of algebraic and transcendental equations by Regula- Falsi Method and Newton-Raphson method."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text26"
+          android:id="@+id/text27" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MODULE-4"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text27"
+
+          android:id="@+id/text28" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Finite differences: "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text28"
+
+          android:id="@+id/text29" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Forward and backward differences, Newton’s forward and backward interpolation formulae. Divided differences- Newton’s divided difference formula. Lagrange’s interpolation formula and inverse interpolation formula (all formulae without proof)-Problems."
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text29"
+
+          android:id="@+id/text30" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Numerical integration: "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text30"
+
+          android:id="@+id/text31" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Simpson’s (1/3)th and (3/8)th rules, Weddle’s rule (without proof ) –Problems."
+          android:layout_marginTop="1dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text31"
+          android:id="@+id/text32" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MODULE-5"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text32"
+
+          android:id="@+id/text33" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Vector integration: "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text33"
+
+          android:id="@+id/text34" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Line integrals-definition and problems, surface and volume integralsdefinition, Green’s theorem in a plane, Stokes and Gauss-divergence theorem(without proof) and problems."
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text34"
+
+          android:id="@+id/text35" />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Calculus of Variations: "
+          android:layout_marginTop="2dp"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text35"
+
+          android:id="@+id/text36" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Calculus of Variations: Variation of function and Functional, variational problems. Euler’s equation, Geodesics, hanging chain, problems.\n
+
+                                          ******"
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text36"
+          android:id="@+id/text37" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Course Outcomes :"
+          android:layout_marginTop="11dp"
+          android:textSize="19dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text37"
+          android:id="@+id/text38" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="On completion of this course, students are able to:\n1. Know the use of periodic signals and Fourier series to analyze circuits and systemcommunications.\n2. Explain the general linear system theory for continuous-time signals and digital signalprocessing using the Fourier Transform and z-transform.\n3. Employ appropriate numerical methods to solve algebraic and transcendental equations.\n4. Αpply Green's Theorem, Divergence Theorem and Stokes' theorem in various applications inthe field of electro-magnetic and gravitational fields and fluid flow problems.\n5. Determine the extremals of functionals and solve the simple problems of the calculus ofvariations. "
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text38"
+          android:id="@+id/text39" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Question paper pattern : "
+          android:layout_marginTop="11dp"
+          android:textSize="19dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text39"
+
+          android:id="@+id/text40" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="• The question paper will have ten full questions carrying equal marks.\n• Each full question consisting of 16 marks.\n• There will be two full questions (with a maximum of four sub questions)from each module.\n• Each full question will have sub question covering all the topics under a module.\n• The students will have to answer five full questions, selecting one full question fromeach module."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text40"
+          android:id="@+id/text41" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Text Books: "
+          android:layout_marginTop="11dp"
+          android:textSize="19dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text41"
+
+          android:id="@+id/text42" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1. B.S. Grewal: Higher Engineering Mathematics, Khanna Publishers, 43rd Ed., 2015.\n2. E. Kreyszig: Advanced Engineering Mathematics, John Wiley and Sons, 10th Ed., 2015."
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text42"
+          android:id="@+id/text43" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Reference books:  "
+          android:layout_marginTop="11dp"
+          android:textSize="19dp"
+          android:textStyle="bold"
+          android:layout_below="@+id/text43"
+          android:id="@+id/text44" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1. N.P.Bali and Manish Goyal: A Text Book of Engineering Mathematics, Laxmi Publishers,7th Ed., 2010.\n2. B.V.Ramana: Higher Engineering Mathematics Tata McGraw-Hill, 2006.\n3. H. K. Dass and Er. RajnishVerma: Higher Engineerig Mathematics, S. Chandpublishing, 1st edition, 2011.\n
+
+
+                                             ***"
+
+          android:layout_marginTop="2dp"
+          android:textSize="15dp"
+          android:layout_below="@+id/text44"
+
+          android:id="@+id/text45" />
+
+
+
+
+
+
+
+
+  </RelativeLayout>
+</ScrollView>

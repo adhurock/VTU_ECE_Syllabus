@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Semester5cbcsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Electronics and Communication Eng.:Semester-5"
+            android:id="@+id/heading"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#cd4a4de1"
+            android:textColor="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/heading"
+            android:id="@+id/headinglin" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="MANAGEMENT AND ENTREPRENEURSHIP"
+            android:id="@+id/mnecbcs"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/headinglin"
+            android:background="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/mnecbcs"
+            android:id="@+id/lin1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="DIGITAL SIGNAL PROCESSING                     "
+            android:id="@+id/dspcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/dspcbcs"
+            android:id="@+id/lin2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Verilog HDL                                                       "
+            android:id="@+id/hdlcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/hdlcbcs"
+            android:id="@+id/lin3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="INFORMATION THEORY AND CODING        "
+            android:id="@+id/itccbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/itccbcs"
+            android:id="@+id/lin4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="OE: NANOELECTRONICS                                "
+            android:id="@+id/necbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/necbcs"
+            android:id="@+id/lin5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="OE: SWITCHING AND FINITE AUTOMATA    \nTHEORY                                                             "
+            android:id="@+id/swfcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/swfcbcs"
+            android:id="@+id/lin6" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="OE: OPERATING SYSTEM                                "
+            android:id="@+id/oscbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/oscbcs"
+            android:id="@+id/lin7" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text=" OE: ELECTRICAL ENGINEERING MATERIALS"
+            android:id="@+id/eemcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/eemcbcs"
+            android:id="@+id/lin8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="OE:MSP430 MICROCONTROLLER                   "
+            android:id="@+id/mccbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/mccbcs"
+            android:id="@+id/lin9" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="DSP Lab                                                               "
+            android:id="@+id/dsplabcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/dsplabcbcs"
+            android:id="@+id/lin10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="HDL Lab                                                                "
+            android:id="@+id/hdllabcbcs"
+            android:background="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/lin10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#0d0c0c"
+            android:layout_below="@+id/hdllabcbcs"
+            android:id="@+id/lin11" />
+
+    </RelativeLayout>
+</ScrollView>

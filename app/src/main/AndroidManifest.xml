@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.vtuecesyllabus">
+
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Main1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Second1Activity" />
+        <activity android:name=".Third1Activity" />
+        <activity android:name=".Fourth1Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Semester3cbcsActivity" />
+        <activity android:name=".Semester4cbcsActivity" />
+        <activity android:name=".Semester5cbcsActivity" />
+        <activity android:name=".Semester3oldActivity" />
+        <activity android:name=".Semester4oldActivity" />
+        <activity android:name=".Semester5oldActivity" />
+        <activity android:name=".Semester6oldActivity" />
+        <activity android:name=".Semester7oldActivity" />
+        <activity android:name=".Semester8oldActivity" />
+        <activity android:name=".Sem3cbcsmath3Activity" />
+        <activity android:name=".Sem3cbcsaecActivity" />
+        <activity android:name=".Sem3cbcsdigitaleleActivity" />
+        <activity android:name=".Sem3cbcsnaActivity" />
+        <activity android:name=".Sem3cbcseiActivity" />
+        <activity android:name=".Sem3cbcsemActivity" />
+        <activity android:name=".Sem3cbcsaeclab" />
+        <activity android:name=".Semester3cbcsdclab" />
+        <activity android:name=".Semester4cbcsm4Activity" />
+        <activity android:name=".Sem4cbcsmpActivity" />
+        <activity android:name=".Sem4cbcscontrolsysActivity" />
+        <activity android:name=".Sem4cbcsssActivity" />
+        <activity android:name=".Sem4cbcspcsActivity" />
+        <activity android:name=".Sem4cbcslicActivity" />
+        <activity android:name=".Sem4cbcsliclabActivity" />
+        <activity android:name=".Sem4cbcsmplabActivity" />
+        <activity android:name=".Sem5cbcsdsplabActivity" />
+        <activity android:name=".Sem5cbcshdllabActivity" />
+        <activity android:name=".Sem6cbcseclabActivity" />
+        <activity android:name=".Sem6cbcscnlabActivity" />
+        <activity android:name=".Sem5cbcsmneActivity" />
+        <activity android:name=".Sem5cbcsvhdlActivity" />
+        <activity android:name=".Sem5cbcsdspActivity" />
+        <activity android:name=".Sem5cbcsosActivity" />
+        <activity android:name=".Sem5cbcseemActivity" />
+        <activity android:name=".Sem5cbcsswfActivity" />
+        <activity android:name=".Sem5cbcsneActivity" />
+        <activity android:name=".Sem5cbcsitcActivity" />
+        <activity android:name=".Sem6cbcsdcActivity" />
+        <activity android:name=".Sem6cbcsarmneActivity" />
+        <activity android:name=".Sem6cbcsaspActivity" />
+        <activity android:name=".Sem6cbcsmecActivity" />
+        <activity android:name=".Sem6cbcscmcActivity" />
+        <activity android:name=".Sem6cbcsvlsiActivity" />
+        <activity android:name=".Sem6cbcsannActivity" />
+        <activity android:name=".Sem6cbcsdssActivity" />
+        <activity android:name=".Sem6cbcsccnActivity" />
+        <activity android:name=".Semester6cbcsActivity" />
+        <activity android:name=".Semester1cbcsActivity" />
+        <activity android:name=".Sem1phycActivity" />
+        <activity android:name=".Sem1lanActivity" />
+        <activity android:name=".Sem1cbcsm1Activity" />
+        <activity android:name=".Sem1cbcsm2Activity" />
+        <activity android:name=".Sem12enviActivity" />
+        <activity android:name=".Sem12cipActivity" />
+        <activity android:name=".Sem12caedActivity" />
+        <activity android:name=".Sem12phyActivity" />
+        <activity android:name=".Sem12pcdActivity" />
+        <activity android:name=".Sem12pcdlabActivity" />
+        <activity android:name=".Sem12chelabActivity" />
+        <activity android:name=".Sem12worklabActivity" />
+        <activity android:name=".Sem12phylabActivity" />
+        <activity android:name=".Sem12civilActivity" />
+        <activity android:name=".Sem12elnActivity" />
+        <activity android:name=".Sem12eleActivity" />
+        <activity android:name=".Sem12cheActivity" />
+        <activity android:name=".Sem12mechActivity" />
+        <activity android:name=".Sem5cbcsmcActivity" />
+        <activity android:name=".DipmatActivity" />
+        <activity android:name=".Dipm1Activity" />
+        <activity android:name=".Dipm2Activity" />
+        <activity android:name=".Sem1checyActivity" />
+        <activity android:name=".SemdspoldActivity" />
+        <activity
+            android:name=".Sem5aclaboldActivity"
+            android:label="@string/title_activity_sem5aclabold" />
+        <activity android:name=".Sem6amoldActivity" />
+        <activity android:name=".Sem6rpoldActivity" />
+        <activity android:name=".Sem6lpoldActivity" />
+        <activity android:name=".Sem6dsdoldActivity" />
+        <activity android:name=".Sem6violdActivity" />
+        <activity android:name=".Sem8wcoldActivity" />
+        <activity android:name=".Sem8nsoldActivity" />
+        <activity android:name=".Sem8onoldActivity" />
+        <activity android:name=".Sem8ieoldActivity" />
+        <activity android:name=".Sem8mucoldActivity" />
+        <activity android:name=".Sem8rtosoldActivity" />
+        <activity android:name=".Sem8ocoldActivity" />
+        <activity android:name=".QuestionpapersActivity" />
+        <activity android:name=".NotesActivity" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AdsActivity"
+            android:label="@string/title_activity_ads" />
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".Ads1Activity"
+            android:label="@string/title_activity_ads1" />
+        <activity
+            android:name=".Ads2Activity"
+            android:label="@string/title_activity_ads2" />
+        <activity
+            android:name=".CodesActivity"
+            android:label="@string/title_activity_codes" />
+        <activity
+            android:name=".Ads3Activity"
+            android:label="@string/title_activity_ads3" />
+        <activity
+            android:name=".Ads4Activity"
+            android:label="@string/title_activity_ads4" />
+        <activity android:name=".DelActivity" />
+        <activity
+            android:name=".Sem3m3oldActivity"
+            android:label="@string/title_activity_sem3m3old" />
+        <activity
+            android:name=".Sem3aecoldActivity"
+            android:label="@string/title_activity_sem3aecold" />
+        <activity
+            android:name=".Sem3ldoldActivity"
+            android:label="@string/title_activity_sem3ldold" />
+        <activity
+            android:name=".Sem3naoldActivity"
+            android:label="@string/title_activity_sem3naold" />
+        <activity
+            android:name=".Sem3eioldActivity"
+            android:label="@string/title_activity_sem3eiold" />
+        <activity
+            android:name=".Sem3ftoldActivity"
+            android:label="@string/title_activity_sem3ftold" />
+        <activity
+            android:name=".Sem3aeclaboldActivity"
+            android:label="@string/title_activity_sem3aeclabold" />
+        <activity
+            android:name=".Sem3ldlaboldActivity"
+            android:label="@string/title_activity_sem3ldlabold" />
+        <activity
+            android:name=".Sem4m4oldActivity"
+            android:label="@string/title_activity_sem4m4old" />
+        <activity
+            android:name=".Sem4mcoldActivity"
+            android:label="@string/title_activity_sem4mcold" />
+        <activity
+            android:name=".Sem4csoldActivity"
+            android:label="@string/title_activity_sem4csold" />
+        <activity
+            android:name=".Sem4ssoldActivity"
+            android:label="@string/title_activity_sem4ssold" />
+        <activity
+            android:name=".Sem4hdloldActivity"
+            android:label="@string/title_activity_sem4hdlold" />
+        <activity
+            android:name=".Sem4licoldActivity"
+            android:label="@string/title_activity_sem4licold" />
+        <activity
+            android:name=".Sem4hdllaboldActivity"
+            android:label="@string/title_activity_sem4hdllabold" />
+        <activity
+            android:name=".Sem4mclab1oldActivity"
+            android:label="@string/title_activity_sem4mclab1old" />
+        <activity
+            android:name=".GatesyllabusActivity"
+            android:label="@string/title_activity_gatesyllabus" />
+        <activity
+            android:name=".Sem5mneoldActivity"
+            android:label="@string/title_activity_sem5mneold" />
+        <activity
+            android:name=".Sem5dspoldActivity"
+            android:label="@string/title_activity_sem5dspold" />
+        <activity
+            android:name=".Sem5acoldActivity"
+            android:label="@string/title_activity_sem5acold" />
+        <activity
+            android:name=".Sem5mwroldActivity"
+            android:label="@string/title_activity_sem5mwrold" />
+        <activity
+            android:name=".Sem5itcoldActivity"
+            android:label="@string/title_activity_sem5itcold" />
+        <activity
+            android:name=".Sem5cmosoldActivity"
+            android:label="@string/title_activity_sem5cmosold" />
+        <activity
+            android:name=".Sem5dsplaboldActivity"
+            android:label="@string/title_activity_sem5dsplabold" />
+        <activity
+            android:name=".Sem6dcoldActivity"
+            android:label="@string/title_activity_sem6dcold" />
+        <activity
+            android:name=".Sem6mpoldActivity"
+            android:label="@string/title_activity_sem6mpold" />
+        <activity
+            android:name=".Sem6mecoldActivity"
+            android:label="@string/title_activity_sem6mecold" />
+        <activity
+            android:name=".Sem6apoldActivity"
+            android:label="@string/title_activity_sem6apold" />
+        <activity
+            android:name=".Sem6osoldActivity"
+            android:label="@string/title_activity_sem6osold" />
+        <activity
+            android:name=".Sem6cppoldActivity"
+            android:label="@string/title_activity_sem6cppold" />
+        <activity
+            android:name=".Sem6scoldActivity"
+            android:label="@string/title_activity_sem6scold" />
+        <activity
+            android:name=".Sem6mplaboldActivity"
+            android:label="@string/title_activity_sem6mplabold" />
+        <activity
+            android:name=".Sem6adclaboldActivity"
+            android:label="@string/title_activity_sem6adclabold" />
+        <activity
+            android:name=".Sem7ccnoldActivity"
+            android:label="@string/title_activity_sem7ccnold" />
+        <activity
+            android:name=".Sem7ofcoldActivity"
+            android:label="@string/title_activity_sem7ofcold" />
+        <activity
+            android:name=".Sem7peoldActivity"
+            android:label="@string/title_activity_sem7peold" />
+        <activity
+            android:name=".Sem7pelaboldActivity"
+            android:label="@string/title_activity_sem7pelabold" />
+        <activity
+            android:name=".Sem7vlsilaboldActivity"
+            android:label="@string/title_activity_sem7vlsilabold" />
+        <activity
+            android:name=".Sem7aesoldActivity"
+            android:label="@string/title_activity_sem7aesold" />
+        <activity
+            android:name=".Sem7anoldActivity"
+            android:label="@string/title_activity_sem7anold" />
+        <activity
+            android:name=".Sem7dspaoldActivity"
+            android:label="@string/title_activity_sem7dspaold" />
+        <activity
+            android:name=".Sem7esoldActivity"
+            android:label="@string/title_activity_sem7esold" />
+        <activity
+            android:name=".Sem7ipoldActivity"
+            android:label="@string/title_activity_sem7ipold" />
+        <activity
+            android:name=".Sem7masoldActivity"
+            android:label="@string/title_activity_sem7masold" />
+        <activity
+            android:name=".Sem7msoldActivity"
+            android:label="@string/title_activity_sem7msold" />
+        <activity
+            android:name=".Sem7pcppoldActivity"
+            android:label="@string/title_activity_sem7pcppold" />
+        <activity
+            android:name=".Sem7vlsioldActivity"
+            android:label="@string/title_activity_sem7vlsiold" />
+        <activity
+            android:name=".Sem7wtoldActivity"
+            android:label="@string/title_activity_sem7wtold" />
+        <activity
+            android:name=".Sem7speecholdActivity"
+            android:label="@string/title_activity_sem7speechold" />
+        <activity
+            android:name=".Sem7rtsoldActivity"
+            android:label="@string/title_activity_sem7rtsold" />
+        <activity
+            android:name=".Sem7rfoldActivity"
+            android:label="@string/title_activity_sem7rfold" />
+        <activity
+            android:name=".Sem8adhocoldActivity"
+            android:label="@string/title_activity_sem8adhocold" />
+        <activity
+            android:name=".Sem8dsoldActivity"
+            android:label="@string/title_activity_sem8dsold" />
+        <activity
+            android:name=".Sem8dssoldActivity"
+            android:label="@string/title_activity_sem8dssold" />
+        <activity
+            android:name=".Sem8gsmoldActivity"
+            android:label="@string/title_activity_sem8gsmold" />
+        <activity
+            android:name=".Sem8hpoldActivity"
+            android:label="@string/title_activity_sem8hpold"></activity>
+    </application>
+
+</manifest>

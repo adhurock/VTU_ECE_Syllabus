@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pc.vtuecesyllabus.Main3Activity"
+    android:background="#fbf9f9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics and Communication Eng.:2010 OLD scheme"
+        android:id="@+id/heading"
+        android:textSize="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#511294"
+        android:textColor="#ffffff" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/heading"
+        android:id="@+id/headinglin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="3rd Semester                                   "
+        android:id="@+id/semester3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:textAllCaps="false"
+        android:layout_below="@+id/headinglin"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester3"
+        android:id="@+id/lin1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="4th Semester                                    "
+        android:id="@+id/semester4"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/lin1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester4"
+        android:id="@+id/lin2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="5th Semester                                    "
+        android:id="@+id/semester5"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/lin2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester5"
+        android:id="@+id/lin3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="6th Semester                                    "
+        android:id="@+id/semester6"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/lin3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester6"
+        android:id="@+id/lin4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="7th Semester                                    "
+        android:id="@+id/semester7"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/lin4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester7"
+        android:id="@+id/lin5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="8th Semester                                    "
+        android:id="@+id/semester8"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/lin5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0d0c0c"
+        android:layout_below="@+id/semester8"
+        android:id="@+id/lin6" />
+
+
+</RelativeLayout>
+
+
